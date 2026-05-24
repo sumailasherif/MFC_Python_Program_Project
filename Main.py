@@ -44,3 +44,18 @@ for z in z_scores:
         classifications.append("Needs Support ⬇️")
     else:
         classifications.append("Average       ✅")
+
+# -------------------------------------------------------
+# --- Output / Results ---
+# -------------------------------------------------------
+print("\n--- Z-Score Summary ---")
+print(f"Mean Score:             {mean:.2f}")
+print(f"Standard Deviation:     {std_dev:.2f}")
+print(f"Highest Score:          {np.max(data_array):.2f}")
+print(f"Lowest Score:           {np.min(data_array):.2f}")
+
+print("\n--- Student Performance Report ---")
+print(f"{'Student':<10} {'Score':<10} {'Z-Score':<10} {'Status'}")
+print("-" * 55)
+for i in range(len(data_array)):
+    print(f"{students[i]:<10} {data_array[i]:<10.1f} {z_scores[i]:<10.3f} {classifications[i]}")
