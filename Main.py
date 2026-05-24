@@ -33,12 +33,14 @@ z_scores = (data_array - mean) / std_dev
 
 # -------------------------------------------------------
 # --- Classify Students Based on Z-Score ---
+# Threshold of 1.0 (1 standard deviation) used for fairness
+# with small class sizes (avoids misclassifying scores like 100)
 # -------------------------------------------------------
 classifications = []
 for z in z_scores:
-    if z > 1.5:
+    if z >= 1.0:
         classifications.append("Outstanding  ⬆️")
-    elif z < -1.5:
+    elif z <= -1.0:
         classifications.append("Needs Support ⬇️")
     else:
         classifications.append("Average       ✅")
