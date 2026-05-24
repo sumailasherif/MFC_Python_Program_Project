@@ -102,3 +102,18 @@ bars = ax2.bar(students, data_array, color=colors, edgecolor="black", alpha=0.8)
 
 # Orange dashed line showing the class mean
 ax2.axhline(mean, color="orange", linestyle="--", linewidth=2, label=f"Mean = {mean:.1f}")
+
+# Label each bar with the actual score
+for bar, score in zip(bars, data_array):
+    ax2.text(
+        bar.get_x() + bar.get_width() / 2,
+        bar.get_height() + 0.5,
+        f"{score:.0f}",
+        ha="center", va="bottom", fontsize=9
+    )
+
+ax2.set_title("Student Scores with Mean Line")
+ax2.set_xlabel("Student")
+ax2.set_ylabel("Score")
+ax2.legend(fontsize=8)
+ax2.grid(True, axis="y", linestyle="--", alpha=0.5)
