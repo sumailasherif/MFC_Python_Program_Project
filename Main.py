@@ -1,6 +1,6 @@
-import numpy as np
+import Patch
 import matplotlib.pyplot as plt
-
+import numpy as np
 
 # --- User Input ---
 print("=" * 50)
@@ -117,3 +117,15 @@ ax2.set_xlabel("Student")
 ax2.set_ylabel("Score")
 ax2.legend(fontsize=8)
 ax2.grid(True, axis="y", linestyle="--", alpha=0.5)
+
+# Shared color legend at the bottom of the figure
+legend_elements = [
+    Patch(facecolor="blue", label="Outstanding (Z ≥ 1.0)"),
+    Patch(facecolor="green", label="Average"),
+    Patch(facecolor="red", label="Needs Support (Z ≤ -1.0)")
+]
+fig.legend(handles=legend_elements, loc="lower center", ncol=3,
+           fontsize=9, bbox_to_anchor=(0.5, -0.05))
+
+plt.tight_layout()
+plt.show()
