@@ -17,3 +17,16 @@ data_array = np.array([float(x) for x in user_input.split()])
 
 # Generate student labels (S001, S002, ...)
 students = [f"S{i+1}" for i in range(len(data_array))]
+
+# -------------------------------------------------------
+# --- Mathematical Computation ---
+# -------------------------------------------------------
+
+# Calculate mean (average score)
+mean = np.mean(data_array)
+
+# Calculate standard deviation (spread of scores)
+std_dev = np.std(data_array)
+
+# Compute Z-scores: how far each score is from the mean
+z_scores = (data_array - mean) / std_dev
