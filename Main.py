@@ -30,3 +30,15 @@ std_dev = np.std(data_array)
 
 # Compute Z-scores: how far each score is from the mean
 z_scores = (data_array - mean) / std_dev
+
+# -------------------------------------------------------
+# --- Classify Students Based on Z-Score ---
+# -------------------------------------------------------
+classifications = []
+for z in z_scores:
+    if z > 1.5:
+        classifications.append("Outstanding  ⬆️")
+    elif z < -1.5:
+        classifications.append("Needs Support ⬇️")
+    else:
+        classifications.append("Average       ✅")
