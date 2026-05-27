@@ -78,8 +78,35 @@ Enter scores when prompted
 
 Enter student scores separated by spaces:
  55 60 72 78 88 40 100
+<img width="877" height="125" alt="image" src="https://github.com/user-attachments/assets/ebc238ca-5b60-4d11-91a5-1640198705a9" />
 
- <img width="875" height="358" alt="image" src="https://github.com/user-attachments/assets/5df0eddf-0cad-41d4-bfec-197221b278d1" />
+**Code screenshot**
+
+
+<img width="800" height="1962" alt="screenshot_code" src="https://github.com/user-attachments/assets/2b946031-f050-494b-a9ef-7ffc3a9bd8c2" />
+
+**Sample Output(terminal)**
+
+<img width="680" height="520" alt="screenshot_terminal" src="https://github.com/user-attachments/assets/8262c4b7-15e5-401a-9914-76cd6792f8c3" />
+
+**Graphs
+After printing the results the program opens two side-by-side graphs:**
+
+<img width="2084" height="947" alt="screenshot_graph" src="https://github.com/user-attachments/assets/ca9e723a-2d02-46d6-91bb-60d5b20254c9" />
+
+Left — Z-Score Scatter Plot
+Each dot is a student. The horizontal position is their raw score, the vertical position is their Z-score. The dashed black line marks Z = 0 (the class mean). The blue dotted line marks the Outstanding threshold (Z = 1.0) and the red dotted line marks the Needs Support threshold (Z = −1.0).
+Right — Bar Chart
+Each bar shows a student's raw score. The orange dashed line marks the class mean. Bars are color-coded to match the scatter plot so both graphs tell the same story at a glance.
+
+
+
+**Author**
+Sherif Sumaila
+Repository: MFC_Python_Program_Project
+
+
+
 
 
 
