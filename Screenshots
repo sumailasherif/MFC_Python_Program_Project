@@ -1,0 +1,5 @@
+Student Exam Score Z-Score Analyzer
+A Python program that applies Z-Score Analysis to student exam results.
+Enter any number of scores and the program will instantly calculate the class mean, standard deviation, and individual Z-scores — then classify every student as Outstanding, Average, or Needs Support, and display two visualisation graphs.
+
+
