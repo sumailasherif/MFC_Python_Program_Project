@@ -1,2 +1,3 @@
 # MFC_Python_Program_Project
-This python involves a problem or demonstrates an application which includes: User input (where relevant) Mathematical computation Output/results
+This is a  Python program that applies Z-Score Analysis to student exam results.
+Enter any number of scores and the program will instantly calculate the class mean, standard deviation, and individual Z-scores — then classify every student as Outstanding, Average, or Needs Support, and display two visualisation graphs.
