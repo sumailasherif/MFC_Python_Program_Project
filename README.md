@@ -14,4 +14,12 @@ Enter any number of scores and the program will instantly calculate the class me
 - Project Structure
 - Author
 
+**Overview**
+This project was built to demonstrate the real-world application of Z-scores in a classroom setting.
+A teacher can run the program, type in their students' exam scores, and immediately receive:
 
+1. The class mean and standard deviation
+2. A Z-score for every student
+3. A performance classification per student
+4. A formatted results table in the terminal
+5. Two visualisation graphs — a scatter plot and a bar chart
