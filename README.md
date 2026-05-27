@@ -23,3 +23,22 @@ A teacher can run the program, type in their students' exam scores, and immediat
 3. A performance classification per student
 4. A formatted results table in the terminal
 5. Two visualisation graphs — a scatter plot and a bar chart
+6. The Mathematics
+
+   
+**The Z-Score Formula**
+_Z  =  ( X − μ ) / σ_
+**Symbol**                  **Meaning**
+X                      Individual student score
+μ                      Mean (average) of all scores
+σ                      Standard deviation
+Z                      Resulting Z-score
+
+**Standard Deviation Formula**
+_σ  =  √( Σ(Xᵢ − μ)²  /  N )_
+
+**Classification Thresholds**
+**Z-Score Range**       **Classification**
+Z ≥ 1.0                ⬆️ Outstanding
+−1.0 < Z < 1.0         ✅ Average
+Z ≤ −1.0               ⬇️ Needs Support
