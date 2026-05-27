@@ -32,10 +32,13 @@ _Z  =  ( X − μ ) / σ_
 
 **Symbol**                  **Meaning**
 
-X                      Individual student score
-μ                      Mean (average) of all scores
-σ                      Standard deviation
-Z                      Resulting Z-score
+X   =                    Individual student score
+
+μ   =                   Mean (average) of all scores
+
+σ   =                   Standard deviation
+
+Z   =                   Resulting Z-score
 
 **Standard Deviation Formula**
 _σ  =  √( Σ(Xᵢ − μ)²  /  N )_
@@ -44,6 +47,9 @@ _σ  =  √( Σ(Xᵢ − μ)²  /  N )_
 
 **Z-Score Range**       **Classification**
 
-Z ≥ 1.0                ⬆️ Outstanding
-−1.0 < Z < 1.0         ✅ Average
-Z ≤ −1.0               ⬇️ Needs Support
+Z ≥ 1.0 =               ⬆️ Outstanding
+
+−1.0 < Z < 1.0  =       ✅ Average
+
+Z ≤ −1.0      =         ⬇️ Needs Support
+
